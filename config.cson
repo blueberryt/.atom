@@ -1,0 +1,18 @@
+"*":
+  "exception-reporting":
+    userId: "70fdc51e-05f9-dd39-a622-eb782b447000"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    fontSize: 13
+  "linter-rubocop":
+    command: "/usr/bin/rubocop"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "minimap-autohide": true
+  linter: {}
+  "git-diff": {}
