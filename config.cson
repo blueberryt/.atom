@@ -3,16 +3,25 @@
     userId: "70fdc51e-05f9-dd39-a622-eb782b447000"
   welcome:
     showOnStartup: false
-  core: {}
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    disabledPackages: [
+      "linter-rubocop"
+    ]
   editor:
     invisibles: {}
     showIndentGuide: true
-    fontSize: 13
+    fontSize: 15
   "linter-rubocop":
     command: "/usr/bin/rubocop"
   minimap:
     plugins:
       "highlight-selected": true
       "minimap-autohide": true
-  linter: {}
+  linter:
+    showErrorTabLine: true
   "git-diff": {}
+  "one-dark-ui": {}
